@@ -10,7 +10,7 @@ const JWT_SECRET = process.env.JWT_SECRET
 
 //const user = {id : }
 
-app.post('/test',(req,res) =>{
+app.get('/test',(req,res) =>{
 
     res.send("Test successful");
 
